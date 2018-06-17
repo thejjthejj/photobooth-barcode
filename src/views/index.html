@@ -1,0 +1,24 @@
+{% extends "components/_layout.html" %}
+
+{% block content %}
+
+<h1>Index</h1>
+
+<button class="switch">Take picture</button>
+
+<canvas id="canvas" width="1280" height="720"></canvas>
+
+<video id="player" controls autoplay></video>
+
+<video autoplay muted loop id="speech">
+  <source src="http://jessejohnson.im/website/video/bg_poster_main.mp4" type="video/mp4">
+<!--<source src="video/bg_poster_main.mp4" type="video/mp4">-->
+</video>
+
+<div id="barcode">
+<img src="images/barcode.png"
+</div>
+
+
+
+{% endblock %}
