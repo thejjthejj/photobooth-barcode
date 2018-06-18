@@ -47,7 +47,8 @@ video {
 }
 
 #barcode img {
-  width: 20%;
-  margin: auto;
-  display: block;
+  width: 30%;
+  position: absolute;
+  left: 65vh;
+  bottom: 4vh;
 }
