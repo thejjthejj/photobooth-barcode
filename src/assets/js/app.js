@@ -90,8 +90,8 @@
                         }
 
                     }).then(stream => {
-                        _this.track = stream.getVideoTracks()[0];
-
+                        _this.track = stream.getVideoTracks()[1];
+                        console.log(_this.track)
                         player.srcObject = stream;
 
                         //Create image capture object and get camera capabilities
