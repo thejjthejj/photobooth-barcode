@@ -90,7 +90,7 @@
                         }
 
                     }).then(stream => {
-                        _this.track = stream.getVideoTracks()[1];
+                        _this.track = stream.getVideoTracks()[0];
                         console.log(_this.track)
                         player.srcObject = stream;
 
