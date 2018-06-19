@@ -7,7 +7,7 @@
     const btn = document.querySelector('.switch');
 
     const takePictureDelay = 800;
-    const turnOffFlashDelay = 100;
+    const turnOffFlashDelay = 300;
 
     const camera = {
         devices: null,
